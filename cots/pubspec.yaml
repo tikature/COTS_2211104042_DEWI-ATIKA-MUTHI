@@ -1,4 +1,4 @@
-name: cotsppb
+name: cots
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -28,18 +28,13 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
- 
-    flutter:
+  flutter:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   get: ^4.6.6
-  flutter_svg: ^2.0.16
-  
-  
-
 
 dev_dependencies:
   flutter_test:
@@ -57,10 +52,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-    assets:
-      - lib/assets/images/onboarding1.png
-      - lib/assets/images/onboarding2.png
-      - lib/assets/images/onboarding3.png
+  assets:
+    - lib/assets/images/onboarding1.png
+    - lib/assets/images/onboarding2.png
+    - lib/assets/images/onboarding3.png
+    - lib/assets/images/Gojek Logo.png
+    - lib/assets/images/Language.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
